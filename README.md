@@ -19,7 +19,7 @@ Claude Code, Cursor and VS Code use this shape:
   "mcpServers": {
     "mastheads": {
       "type": "http",
-      "url": "${MCP_URL}",
+      "url": "https://api.mastheads.app/v1/mcp",
       "headers": { "Authorization": "Bearer mh_live_..." }
     }
   }
